@@ -1,0 +1,29 @@
+{
+  "name": "docs",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "dev": "nodemon --exec ts-node src/app.ts",
+    "dist": "webpack --mode=development -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ymh3190/node-docs.git"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ymh3190/node-docs/issues"
+  },
+  "homepage": "https://github.com/ymh3190/node-docs#readme",
+  "devDependencies": {
+    "css-loader": "^6.7.4",
+    "mini-css-extract-plugin": "^2.7.6",
+    "nodemon": "^2.0.22",
+    "sass": "^1.62.1",
+    "sass-loader": "^13.2.2",
+    "ts-loader": "^9.4.2",
+    "ts-node": "^10.9.1",
+    "webpack": "^5.83.1",
+    "webpack-cli": "^5.1.1"
+  }
+}
