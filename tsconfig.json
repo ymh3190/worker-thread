@@ -1,6 +1,8 @@
 {
   "include": ["src/**/*"],
   "compilerOptions": {
-    "esModuleInterop": true
+    "esModuleInterop": true,
+    "strictNullChecks": true,
+    "strictPropertyInitialization": true
   }
 }
