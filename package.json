@@ -3,8 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "scripts": {
-    "dev": "nodemon --exec ts-node src/app.ts",
-    "dist": "webpack --mode=development -w"
+    "dev": "nodemon -x babel-node src/app.js"
   },
   "repository": {
     "type": "git",
@@ -16,14 +15,9 @@
   },
   "homepage": "https://github.com/ymh3190/node-docs#readme",
   "devDependencies": {
-    "css-loader": "^6.7.4",
-    "mini-css-extract-plugin": "^2.7.6",
-    "nodemon": "^2.0.22",
-    "sass": "^1.62.1",
-    "sass-loader": "^13.2.2",
-    "ts-loader": "^9.4.2",
-    "ts-node": "^10.9.1",
-    "webpack": "^5.83.1",
-    "webpack-cli": "^5.1.1"
+    "@babel/core": "^7.22.1",
+    "@babel/node": "^7.22.1",
+    "@babel/preset-env": "^7.22.4",
+    "nodemon": "^2.0.22"
   }
 }
