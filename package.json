@@ -2,9 +2,7 @@
   "name": "docs",
   "version": "1.0.0",
   "description": "",
-  "scripts": {
-    "dev": "nodemon -x babel-node src/app.js"
-  },
+  "scripts": {},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/ymh3190/node-docs.git"
